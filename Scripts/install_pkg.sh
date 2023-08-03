@@ -12,6 +12,16 @@ fi
 
 install_list="${1:-install_pkg.lst}"
 
+basic_list = "fakeroot make gcc pkgconfig cmake acpi patch bison flex which git"
+for pk in $basic_list; do
+    if ! pkg_installed ${pk}
+        then
+        echo "installing dependency ${pk}..."
+        suso pacman -S ${pk}
+    fi
+done
+
+
 if ! pkg_installed git
     then
     echo "installing dependency git..."
