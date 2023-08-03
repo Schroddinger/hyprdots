@@ -12,7 +12,7 @@ fi
 
 install_list="${1:-install_pkg.lst}"
 
-$basic_list = "fakeroot make gcc pkgconfig cmake acpi patch bison flex which git"
+basic_list="fakeroot make gcc pkgconfig cmake acpi patch bison flex which git"
 for pk in $basic_list; do
     if ! pkg_installed ${pk}
         then
