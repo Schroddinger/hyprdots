@@ -16,7 +16,7 @@
 
 	"modules-left": ["custom/padd","custom/l_end","custom/power","custom/cliphist","custom/wbar","custom/mode","custom/wallchange","custom/r_end","custom/l_end","wlr/taskbar","mpris","custom/r_end","","custom/padd"],
 	"modules-center": ["custom/padd","custom/l_end","clock","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","tray","custom/r_end","custom/l_end","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/r_end","custom/padd"],
+	"modules-right": ["custom/padd","custom/l_end","tray","custom/r_end","custom/l_end","network","bluetooth","pulseaudio","pulseaudio#microphone", "battery","custom/r_end","custom/padd"],
 
 
 // sourced from modules based on config.ctl //
