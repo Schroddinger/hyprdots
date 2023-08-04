@@ -21,13 +21,6 @@ for pk in $basic_list; do
     fi
 done
 
-
-if ! pkg_installed git
-    then
-    echo "installing dependency git..."
-    sudo pacman -S git
-fi
-
 if ! pkg_installed yay
     then
     echo "installing dependency yay..."
